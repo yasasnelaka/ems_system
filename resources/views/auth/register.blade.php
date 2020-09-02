@@ -14,7 +14,7 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('User Type') }}</label>
 
                             <div class="col-md-6">
-                              <select name="role_id" class="custom-select">
+                              <select name="role_id" class="browser-default custom-select">
                                   <option value="">Select Type of user</option>
                                   <option value="1">Admin</option>
                                   <option value="2">Counselor</option>
@@ -89,4 +89,11 @@
         </div>
     </div>
 </div>
+<script>
+    // Material Select Initialization
+    $(document).ready(function() {
+        $('.mdb-select').materialSelect();
+    });
+</script>
+
 @endsection

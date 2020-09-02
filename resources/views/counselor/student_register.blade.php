@@ -19,14 +19,14 @@
                                 <label for="Student_id" class="col-md-4 col-form-label text-md-right">{{ __('Student_id') }}</label>
 
                                 <div class="col-md-6">
-                                    <input id="student_id" type="text" class="form-control" name="student_id" value="{{$id}}" required autocomplete="student_id" autofocus>
+                                    <input id="student_id" type="text" class="form-control" name="student_id" value="{{$id}}" required autocomplete="student_id" autofocus disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label for="course" class="col-md-4 col-form-label text-md-right">{{ __('Course Interested') }}</label>
 
                                 <div class="col-md-6">
-                                    <select name="course_id" class="custom-select">
+                                    <select name="course_id" class="browser-default custom-select">
                                         <option value="">Select Course</option>
                                         @foreach($course as $course)
                                         <option value="{{$course->id}}">{{$course->course_name}}</option>
@@ -175,7 +175,7 @@
                                 <label for="gender" class="col-md-4 col-form-label text-md-right">{{ __('Gender') }}</label>
 
                                 <div class="col-md-6">
-                                    <select name="gender" class="custom-select">
+                                    <select name="gender" class="browser-default custom-select">
                                         <option value="">Select Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
@@ -187,6 +187,7 @@
                                     @enderror
                                 </div>
                             </div>
+                            <input type="hidden" name="counselor" value="{{Auth::user()->id}}">
                             <div class="form-group row mb-0">
                                 <div class="col-md-6 offset-md-4">
                                     <button type="submit" class="btn btn-primary">
@@ -200,4 +201,11 @@
             </div>
         </div>
     </div>
+    <script>
+        // Material Select Initialization
+        $(document).ready(function() {
+            $('.mdb-select').materialSelect();
+        });
+    </script>
+
 @endsection

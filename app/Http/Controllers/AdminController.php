@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Student;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -27,5 +28,8 @@ class AdminController extends Controller
         $user->save();
         return redirect()->back();
     }
-
+    public function initial_enquiry(){
+        $student=Student::join('offers','offers.studentof_id','students.st_id');
+        return view('admin.initial_enquiry_report')->with('student',$student);
+    }
 }
