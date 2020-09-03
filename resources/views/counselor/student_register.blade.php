@@ -19,7 +19,7 @@
                                 <label for="Student_id" class="col-md-4 col-form-label text-md-right">{{ __('Student_id') }}</label>
 
                                 <div class="col-md-6">
-                                    <input id="student_id" type="text" class="form-control" name="student_id" value="{{$id}}" required autocomplete="student_id" autofocus disabled>
+                                    <input id="student_id" type="text" class="form-control" name="student_id" value="{{$id}}" required autocomplete="student_id" autofocus >
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -175,7 +175,7 @@
                                 <label for="gender" class="col-md-4 col-form-label text-md-right">{{ __('Gender') }}</label>
 
                                 <div class="col-md-6">
-                                    <select name="gender" class="browser-default custom-select">
+                                    <select name="gender" class="browser-default custom-select" required>
                                         <option value="">Select Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>

@@ -24,6 +24,16 @@ Route::get('/admin/report','AdminController@report');
 Route::get('/admin/edit','AdminController@edit');
 Route::post('/admin/edit/register','AdminController@edit_register');
 Route::get('/admin/initial_enquiry','AdminController@initial_enquiry');
+Route::get('/admin/find','AdminController@find');
+Route::get('/admin/pdf','AdminController@pdf');
+Route::get('/admin/offer_received','AdminController@offer_received');
+Route::get('/admin/offer_find','AdminController@offer_find');
+Route::get('/admin/pdf_offer','AdminController@pdf_offer');
+Route::get('/admin/application_report','AdminController@application_report');
+Route::get('/admin/application_find','AdminController@application_find');
+Route::get('/admin/pdf_application','AdminController@pdf_application');
+Route::get('/admin/summary_report','AdminController@summary_report');
+Route::get('/admin/summary_find','AdminController@summary_find');
 
 Route::get('/counselor','CounselorController@counselor');
 Route::get('/counselor/register','CounselorController@student_register_form');

@@ -8,10 +8,68 @@
                 {{ session()->get('message') }}
             </div>
         @endif
-        <form action="" method="get">
-            <button class="btn btn-outline-primary" type="submit">Filter options</button>
+        <center>
+        <form action="/admin/find" method="get">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <input type="text" name="student_id" id="surname" class="form-control" >
+                        <label for="name">Student ID</label>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <label for="Date_Of_Birth">Enquiry Date</label>
+                </div>
+                <div class="col-md-2">
+                    <div class="md-form">
+                        <input type="date" name="from_in_date" id="from_in_date" class="form-control">
+                        <label for="from_in_date">From</label>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="md-form">
+                        <input type="date" name="to_in_date" id="to_in_date" class="form-control" >
+                        <label for="to_in_date">To</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <input type="text" name="name" id="name" class="form-control" >
+                        <label for="name">name</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <select name="course_id"   class="mdb-select md-form" searchable="Search here..">
+                        <option value="">Select Course</option>
+                        @foreach($course as $course)
+                            <option value="{{$course->id}}">{{$course->course_name}}</option>
+                        @endforeach
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <input type="text" name="surname" id="surname" class="form-control" >
+                        <label for="name">Surname</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <input type="text" name="mobile" id="mobile" class="form-control" >
+                        <label for="mobile">Mobile</label>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Search" class="btn btn-primary">
         </form>
-        <table id="table1" class="table">
+
+        </center>
+        <a href="/admin/pdf" class="btn btn-primary">PDF</a>
+        <table  class="table">
             <thead class="grey lighten-2">
             <tr>
                 <th scope="col">Student ID</th>
@@ -32,31 +90,32 @@
                     <td>{{$student->name}}</td>
                     <td>{{$student->surname}}</td>
                     <td>{{$student->nic}}</td>
-                                        <td>{{$student->email}}</td>
-                    <td>{{$student->mobile}}</td>
+                    <td>{{$student->email}}</td>
+                    <td>{{$student->mobile_number}}</td>
                     <td>{{$student->in_date}}</td>
-                    <td>{{$student->rank}}</td>
-                    <td>{{$student->grade}}</td>
+                    <td>{{$student->full_name}}</td>
+                    <td>{{$student->course_name}}</td>
                 </tr>
             @endforeach
             </tbody>
         </table>
         <!-- Data Table -->
-        <table cellspacing="0" cellpadding="0" border="0">
-            <tbody>
-            <tr>
-                <td class="gutter">
-                    <div class="line number1 index0 alt2" style="display: none;">1</div>
-                </td>
-                <td class="code">
-                    <div class="container" style="display: none;">
-                        <div class="line number1 index0 alt2" style="display: none;">&nbsp;</div>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+{{--        <table cellspacing="0" cellpadding="0" border="0">--}}
+{{--            <tbody>--}}
+{{--            <tr>--}}
+{{--                <td class="gutter">--}}
+{{--                    <div class="line number1 index0 alt2" style="display: none;">1</div>--}}
+{{--                </td>--}}
+{{--                <td class="code">--}}
+{{--                    <div class="container" style="display: none;">--}}
+{{--                        <div class="line number1 index0 alt2" style="display: none;">&nbsp;</div>--}}
+{{--                    </div>--}}
+{{--                </td>--}}
+{{--            </tr>--}}
+{{--            </tbody>--}}
+{{--        </table>--}}
     </div>
+
     <script>
         // Material Select Initialization
         $(document).ready(function() {
