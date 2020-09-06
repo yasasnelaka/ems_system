@@ -69,6 +69,7 @@
 
         </center>
         <a href="/admin/pdf" class="btn btn-primary">PDF</a>
+        <a href="/admin/initial_excel" class="btn btn-primary">Excel</a>
         <table  class="table">
             <thead class="grey lighten-2">
             <tr>
@@ -92,7 +93,7 @@
                     <td>{{$student->nic}}</td>
                     <td>{{$student->email}}</td>
                     <td>{{$student->mobile_number}}</td>
-                    <td>{{$student->in_date}}</td>
+                    <td>{{$student->updated_at}}</td>
                     <td>{{$student->full_name}}</td>
                     <td>{{$student->course_name}}</td>
                 </tr>

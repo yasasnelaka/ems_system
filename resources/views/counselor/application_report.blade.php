@@ -9,7 +9,7 @@
             </div>
         @endif
         <center>
-            <form action="/admin/application_find" method="get">
+            <form action="/counselor/application_find" method="get">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="md-form">
@@ -58,8 +58,8 @@
                     </div>
 
                 </div>
-                <input type="submit" value="Search" class="btn btn-primary"> <a href="/admin/pdf_application" class="btn btn-primary">PDF</a>
-            <a href="/admin/application_excel" class="btn btn-primary">Excel</a>
+                <input type="submit" value="Search" class="btn btn-primary"> <a href="/counselor/pdf_application" class="btn btn-primary">PDF</a>
+            <a href="/counselor/application_excel" class="btn btn-primary">Excel</a>
             </form>
 
         </center>
@@ -75,6 +75,7 @@
                 <th scope="col">Course Name</th>
                 <th scope="col">Uploaded Document</th>
                 <th scope="col">Counselor name</th>
+                <th scope="col">Edit</th>
             </tr>
             </thead>
             <tbody>
@@ -89,7 +90,12 @@
                     <td>{{$student->course_name}}</td>
                     <td><a href="../../{{$student->upload}}">Document</a></td>
                     <td>{{$student->full_name}}</td>
-
+                    <td>
+                        <form  action="{{url('/counselor/application_edit_form')}}" method="get">
+                            <input type="hidden" name="student_id" value="{{$student->st_id}}">
+                            <button class="btn btn-sm btn-warning" type="submit" name="submit">Edit</button>
+                        </form>
+                    </td>
                 </tr>
             @endforeach
             </tbody>

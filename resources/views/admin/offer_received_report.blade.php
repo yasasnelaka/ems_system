@@ -59,6 +59,7 @@
 
                 </div>
                 <input type="submit" value="Search" class="btn btn-primary"> <a href="/admin/pdf_offer" class="btn btn-primary">PDF</a>
+              <a href="/admin/offer_excel" class="btn btn-primary">Excel</a>
             </form>
 
         </center>

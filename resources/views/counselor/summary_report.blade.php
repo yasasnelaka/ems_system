@@ -9,7 +9,7 @@
             </div>
         @endif
 
-            <form action="/admin/summary_find" method="get">
+            <form action="/counselor/summary_find" method="get">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="md-form">
@@ -27,8 +27,8 @@
                 </div>
 
             </form>
-        <a href="/admin/summary_pdf" class="btn btn-primary">PDF</a>
-        <a href="/admin/excel" class="btn btn-primary">Excel</a>
+        <a href="/counselor/summary_pdf" class="btn btn-primary">PDF</a>
+        <a href="/counselor/excel" class="btn btn-primary">Excel</a>
         <table  class="table">
             <thead class="grey lighten-2">
             <tr>

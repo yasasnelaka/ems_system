@@ -8,7 +8,7 @@
                 {{ session()->get('message') }}
             </div>
         @endif
-        <center>
+
             <form action="/admin/summary_find" method="get">
                 <div class="row">
                     <div class="col-md-4">
@@ -17,20 +17,18 @@
                             <label for="name">Student ID</label>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-4">
                         <div class="md-form">
                             <input type="text" name="name" id="name" class="form-control" >
                             <label for="name">name</label>
                         </div>
                     </div>
+                    <div class="col-md-4"> <input type="submit" value="Search" class="btn btn-primary"></div>
                 </div>
-                <input type="submit" value="Search" class="btn btn-primary">
-            </form>
 
-        </center>
-        <a href="/admin/pdf" class="btn btn-primary">PDF</a>
+            </form>
+        <a href="/admin/summary_pdf" class="btn btn-primary">PDF</a>
+        <a href="/admin/excel" class="btn btn-primary">Excel</a>
         <table  class="table">
             <thead class="grey lighten-2">
             <tr>
@@ -43,7 +41,7 @@
                 <th scope="col">Document received</th>
                 <th scope="col">Application</th>
                 <th scope="col">Offer received</th>
-                <th scope="col">Initial Inquary</th>
+                <th scope="col">Initial Inquiry</th>
             </tr>
             </thead>
             <tbody>

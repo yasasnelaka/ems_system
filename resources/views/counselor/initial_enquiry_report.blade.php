@@ -9,7 +9,7 @@
             </div>
         @endif
         <center>
-        <form action="/admin/find" method="get">
+        <form action="/counselor/find" method="get">
             <div class="row">
                 <div class="col-md-4">
                     <div class="md-form">
@@ -68,8 +68,8 @@
         </form>
 
         </center>
-        <a href="/admin/pdf" class="btn btn-primary">PDF</a>
-        <a href="/admin/initial_excel" class="btn btn-primary">Excel</a>
+        <a href="/counselor/pdf" class="btn btn-primary">PDF</a>
+        <a href="/counselor/initial_excel" class="btn btn-primary">Excel</a>
         <table  class="table">
             <thead class="grey lighten-2">
             <tr>
@@ -82,6 +82,7 @@
                 <th scope="col">Enquiry Date</th>
                 <th scope="col">Counselor Name</th>
                 <th scope="col">Interested Course</th>
+                <th scope="col">Edit</th>
             </tr>
             </thead>
             <tbody>
@@ -96,6 +97,12 @@
                     <td>{{$student->updated_at}}</td>
                     <td>{{$student->full_name}}</td>
                     <td>{{$student->course_name}}</td>
+                    <td>
+                        <form  action="{{url('/counselor/enquiry_edit_form')}}" method="get">
+                            <input type="hidden" name="student_id" value="{{$student->st_id}}">
+                            <button class="btn btn-sm btn-warning" type="submit" name="submit">Edit</button>
+                        </form>
+                    </td>
                 </tr>
             @endforeach
             </tbody>

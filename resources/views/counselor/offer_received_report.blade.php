@@ -9,7 +9,7 @@
             </div>
         @endif
         <center>
-            <form action="/admin/offer_find" method="get">
+            <form action="/counselor/offer_find" method="get">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="md-form">
@@ -58,8 +58,8 @@
                     </div>
 
                 </div>
-                <input type="submit" value="Search" class="btn btn-primary"> <a href="/admin/pdf_offer" class="btn btn-primary">PDF</a>
-              <a href="/admin/offer_excel" class="btn btn-primary">Excel</a>
+                <input type="submit" value="Search" class="btn btn-primary"> <a href="/counselor/pdf_offer" class="btn btn-primary">PDF</a>
+              <a href="/counselor/offer_excel" class="btn btn-primary">Excel</a>
             </form>
 
         </center>
@@ -78,6 +78,7 @@
                 <th scope="col">Inteke Date</th>
                 <th scope="col">Uploaded Document</th>
                 <th scope="col">Counselor name</th>
+                <th scope="col">Edit</th>
             </tr>
             </thead>
             <tbody>
@@ -95,7 +96,12 @@
                     <td>{{$student->in_date}}</td>
                     <td><a href="../../{{$student->upload}}">Document</a></td>
                     <td>{{$student->full_name}}</td>
-
+                    <td>
+                        <form  action="{{url('/counselor/offer_edit_form')}}" method="get">
+                            <input type="hidden" name="student_id" value="{{$student->st_id}}">
+                            <button class="btn btn-sm btn-warning" type="submit" name="submit">Edit</button>
+                        </form>
+                    </td>
                 </tr>
             @endforeach
             </tbody>

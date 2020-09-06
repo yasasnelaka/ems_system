@@ -2,68 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f47521-8d37-40b4-80d7-f4a168245ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/debug-server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dompdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/tinker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/trustedproxy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/document/15991353173-file.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/document/15991353363-file.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/document/15991353443-file.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/document/15991353543-file.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/document/15991354453-file.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/document/15991354743-file.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/Document_recevied_report.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/application_report.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/offer_received_report.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/summary_report.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/401.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/403.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/419.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/429.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/500.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/illustrated-layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/minimal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/message.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/panel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/promotion.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/promotion/button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/subcopy.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/themes/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/message.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/panel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/promotion.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/promotion/button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/subcopy.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/bootstrap-4.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/default.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/semantic-ui.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-bootstrap-4.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-default.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create('test'" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/export('xls')" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992127623-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992132533-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992736893-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992737233-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992738283-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992738983-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992739823-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992813513-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992863323-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992863603-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992886193-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992900613-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992904303-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992904863-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992920513-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/document/15992921463-file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/Document_recevied_report.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/application_edit_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/application_report.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/document_edit_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/enquiry_edit_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/initial_enquiry_report.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/offer_edit_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/offer_received_report.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/counselor/summary_report.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stubs/export.model.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stubs/export.plain.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stubs/export.query-model.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stubs/export.query.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stubs/import.collection.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stubs/import.model.stub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ERM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ERM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CounselorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CounselorController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/Document_recevied_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/Document_recevied_report.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/application_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/application_report.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/initial_enquiry_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/initial_enquiry_report.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/bootstrap/javascript.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bootstrap/javascript.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/counselor/student_register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/counselor/student_register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/offer_received_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/offer_received_report.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/summary_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/summary_report.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/counselor/counselor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/counselor/counselor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,15 +165,16 @@
       <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
       <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
-      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
       <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
-      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
-      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
-      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/jeremeamia/superclosure" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gqaeOgXHFdbQWzXtfbPXROWaXH" />
@@ -201,11 +189,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\EMS\resources\views\" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\EMS\resources\views\student" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\EMS\resources\views\counselor" />
+      <recent name="P:\EMS\resources\views\" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,6 +231,9 @@
       <workItem from="1599028779369" duration="8638000" />
       <workItem from="1599039713283" duration="4372000" />
       <workItem from="1599044543606" duration="44443000" />
+      <workItem from="1599181510825" duration="3270000" />
+      <workItem from="1599191700740" duration="36450000" />
+      <workItem from="1599236353405" duration="22535000" />
     </task>
     <servers />
   </component>
